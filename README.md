@@ -2,6 +2,10 @@
 
 Get started with the [Ring Partner API](https://developer.amazon.com/docs/ring/api-documentation.html) — explore device APIs from your terminal and stream live video in your browser.
 
+## Doorstep Care — caretaking demo
+
+Open `/care` for a read-only front-door activity timeline. Its server route calls the real Ring Partner API (`GET /v1/devices` and `GET /v1/history/devices/{device_id}/events?event_types=motion,ding`); the browser never sees the Ring token. The separate **Offline sample** mode is labeled and does **not** count as a Ring simulator demonstration. See [setup, test steps, limitations, and API feedback](docs/doorstep-care.md).
+
 ![Next.js](https://img.shields.io/badge/Next.js-14-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)

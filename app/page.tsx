@@ -99,6 +99,7 @@ export default function Dashboard() {
 
   return (
     <div className="h-screen flex flex-col">
+      <a href="/care" className="px-4 py-2 text-sm text-cyan-300 underline">Open Doorstep Care activity demo →</a>
       <Header
         connected={isSimpleMode ? false : connected}
         enabledCount={isSimpleMode ? 0 : enabledCount}

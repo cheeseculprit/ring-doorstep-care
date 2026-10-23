@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev -p 3000",
+    "test": "tsx --test tests/*.test.mjs",
     "build": "next build",
     "start": "next start -p 3000"
   },
@@ -25,6 +26,7 @@
     "null-loader": "^4.0.1",
     "postcss": "8.5.10",
     "tailwindcss": "3.4.0",
+    "tsx": "^4.23.15",
     "typescript": "5.3.3"
   }
 }
